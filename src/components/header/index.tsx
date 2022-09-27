@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import { ExchangeRate } from '../exchange-rate';
-import { List } from '../list';
-import { CurrencyExchangeRes } from '../../../common/types';
-import { useGetCurrencyExchangeQuery } from '../../../store/queries';
+import { List } from '../common/list';
+import { CurrencyExchangeRes } from '../../common/types';
+import { useGetCurrencyExchangeQuery } from '../../store/queries';
 import './styles.scss';
  
 const Header: FC = () => {

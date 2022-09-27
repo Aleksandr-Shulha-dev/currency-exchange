@@ -1,8 +1,8 @@
 import { FC } from 'react';
-import { ExchangeRateProps } from '../../../common/types';
-import euFlag from '../../../assets/image/eu.png';
-import usaFlag from '../../../assets/image/usa.png';
-import btcFlag from '../../../assets/image/btc.png';
+import { ExchangeRateProps } from '../../common/types';
+import euFlag from '../../assets/image/eu.png';
+import usaFlag from '../../assets/image/usa.png';
+import btcFlag from '../../assets/image/btc.png';
 
 import './styles.scss';
  
