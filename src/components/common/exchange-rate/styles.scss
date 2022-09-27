@@ -1,0 +1,27 @@
+.rate {
+  display: flex;
+  align-items: center;
+  & > span:not(:last-child) {
+    margin-right: 0.625rem;
+  }
+}
+
+.flag {
+  height: 24px;
+}
+
+.slash {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: 'покупка / продаж';
+    width: 105px;
+    top: -1rem;
+    left: -3.125rem;
+    font-size: 0.75rem;
+    opacity: 0.5;
+  }
+}
+
+  
