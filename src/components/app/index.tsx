@@ -1,11 +1,13 @@
 import { FC } from 'react';
-import { Header } from '../common/header';
+import { Header } from '../header';
+import { Main } from '../main';
 import './styles.scss';
 
 const App: FC = () => {
   return (
     <div className='app'>
-      <Header></Header>
+      <Header/>
+      <Main/>
     </div>
   )
 }

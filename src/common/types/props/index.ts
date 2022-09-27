@@ -1,4 +1,4 @@
-import { FC, ReactNode, ComponentType } from 'react';
+import { FC, Dispatch } from 'react';
 import { CurrencyExchangeRes } from './../rtkQuery/index';
 
 interface ExchangeRateProps {
@@ -10,4 +10,18 @@ interface ListProps {
   renderComponent: FC<ExchangeRateProps>;
 }
 
-export type { ListProps, ExchangeRateProps };
+interface InputProps {
+  value: string;
+  onChange: Dispatch<string>;
+}
+
+interface SelectComponentProps extends InputProps {
+  menuItems: string[];
+}
+
+export type {
+  ListProps,
+  ExchangeRateProps,
+  InputProps,
+  SelectComponentProps
+};
